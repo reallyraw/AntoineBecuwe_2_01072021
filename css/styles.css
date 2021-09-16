@@ -38,7 +38,7 @@ button:focus {
 }
 
 h2 {
-    display: block;
+  display: block;
   font-size: 1.17em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -368,7 +368,6 @@ header {
 
 .activites-block {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     width: 22%;
     height: 400px;
@@ -400,7 +399,7 @@ header {
 }
 
 .activites-block .activites-image {
-    height: 80%;
+    height: calc(100% - 55px);
     object-fit: cover;
 }
 
